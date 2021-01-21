@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h5{
+    margin: 0;
+    padding: 0;
+}
+.header-title{
+    display: flex;
+    flex-direction: row;
+}
+.icon-header{
+    margin-top: 5%;
+}
+.post{
+    background-color: white;
+    width: 35%;
+    margin: 5% auto;
+    height: 450px;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon{
+    margin: 1% 1% 0 1%;
+}
+.lastOne{
+    margin-left: 70%;
+}
+.image{
+    margin-top: 12%;
+    max-height: 250px;
+}
+img{
+    width: 100%;
+    max-height: 250px;
+}
